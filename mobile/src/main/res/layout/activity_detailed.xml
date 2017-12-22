@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:background="@color/darkblue">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="142dp"
+            android:weightSum="1">
+
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_height="152dp"
+                android:id="@+id/rep_img"
+                android:src="@drawable/dianne_feinstein"
+                android:layout_marginTop="0dp" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="145dp"
+                android:layout_height="142dp"
+                android:weightSum="1">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp"
+                    android:text="Dianne Feinstein"
+                    android:id="@+id/rep_name"
+                    android:layout_weight="0.06"
+                    android:layout_gravity="center_horizontal" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp"
+                    android:text="democrat"
+                    android:id="@+id/rep_party"
+                    android:layout_weight="0.06"
+                    android:layout_gravity="center_horizontal" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp"
+                    android:text="End Term: 1/3/2019"
+                    android:id="@+id/rep_term"
+                    android:layout_weight="0.06"
+                    android:layout_gravity="center_horizontal" />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:text="senator@feinstein.senate.gov"
+            android:id="@+id/rep_committees"
+            android:layout_weight="0.06" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:text="feinstein.senate.gov"
+            android:id="@+id/rep1_website"
+            android:layout_weight="0.06" />
+    </LinearLayout>
+</LinearLayout>

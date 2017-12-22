@@ -1,0 +1,231 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:orientation="vertical">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="142dp"
+        android:weightSum="1"
+        android:background="@color/darkblue">
+        <LinearLayout
+            android:layout_width="141dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="73dp"
+                android:layout_height="101dp"
+                android:id="@+id/rep1"
+                android:src="@drawable/dianne_feinstein"
+                android:layout_marginTop="0dp" />
+
+            <Button
+                android:layout_width="108dp"
+                android:layout_height="33dp"
+                android:text="More info"
+                android:id="@+id/rep1_btn"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="142dp"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text="Speaking on the Senate floor now about the Supreme Court vacancy"
+                android:id="@+id/rep1_tweet"
+                android:layout_weight="0.06"
+                android:background="@color/blue"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text="Dianne Feinstein"
+                android:id="@+id/rep1_name"
+                android:layout_weight="0.06" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text="democrat"
+                android:id="@+id/rep1_party"
+                android:layout_weight="0.06" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text="senator@feinstein.senate.gov"
+                android:id="@+id/rep1_email"
+                android:layout_weight="0.06" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text="feinstein.senate.gov"
+                android:id="@+id/rep1_website"
+                android:layout_weight="0.06" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="142dp"
+        android:weightSum="1"
+        android:background="@color/darkred">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="250dp"
+            android:layout_height="142dp"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text="Speaking on the Senate floor now about the Supreme Court vacancy"
+                android:id="@+id/rep2_tweet"
+                android:layout_weight="0.06"
+                android:background="@color/red"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text="Dianne Feinstein"
+                android:id="@+id/rep2_name"
+                android:layout_weight="0.06" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text="democrat"
+                android:id="@+id/rep2_party"
+                android:layout_weight="0.06" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text="senator@feinstein.senate.gov"
+                android:id="@+id/rep2_email"
+                android:layout_weight="0.06" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text="feinstein.senate.gov"
+                android:id="@+id/rep2_website"
+                android:layout_weight="0.06" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="141dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="73dp"
+                android:layout_height="101dp"
+                android:id="@+id/rep2"
+                android:src="@drawable/dianne_feinstein"
+                android:layout_marginTop="0dp" />
+
+            <Button
+                android:layout_width="108dp"
+                android:layout_height="33dp"
+                android:text="More info"
+                android:id="@+id/rep2_btn"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="142dp"
+        android:weightSum="1"
+        android:background="@color/darkblue">
+        <LinearLayout
+            android:layout_width="141dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="73dp"
+                android:layout_height="101dp"
+                android:id="@+id/rep3"
+                android:src="@drawable/dianne_feinstein"
+                android:layout_marginTop="0dp" />
+
+            <Button
+                android:layout_width="108dp"
+                android:layout_height="33dp"
+                android:text="More info"
+                android:id="@+id/rep3_btn"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="142dp"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text="Speaking on the Senate floor now about the Supreme Court vacancy"
+                android:id="@+id/rep3_tweet"
+                android:layout_weight="0.06"
+                android:background="@color/red"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text="Dianne Feinstein"
+                android:id="@+id/rep3_name"
+                android:layout_weight="0.06" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text="democrat"
+                android:id="@+id/rep3_party"
+                android:layout_weight="0.06" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text="senator@feinstein.senate.gov"
+                android:id="@+id/rep3_email"
+                android:layout_weight="0.06" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text="feinstein.senate.gov"
+                android:id="@+id/rep3_website"
+                android:layout_weight="0.06" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Feed Fred"
+        android:id="@+id/fred_btn"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/fred_img" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Feed Lexy"
+        android:id="@+id/lexy_btn"
+        android:layout_alignBottom="@+id/fred_btn"
+        android:layout_alignStart="@+id/lexy_img"
+        android:layout_alignEnd="@+id/lexy_img" />
+
+</LinearLayout>
